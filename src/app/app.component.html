@@ -1,14 +1,9 @@
-<!--<div class="list">-->
-<!--  <input type="text" [(ngModel)]="title" name="title">-->
-<!--</div>-->
-<!--<p>  {{title}}</p>-->
-<!--<div class="list-item">-->
-<!--  <input type="text" [(ngModel)]="title" name="title">-->
-<!--</div>-->
+<app-header (featureSelected)="onNavigate($event)"></app-header>
 <div class="container">
- <ul class="list-group" >
-  <li class="list-group-item" *ngFor="let cars of carcompany">{{cars}}</li></ul>
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes *ngIf="loadedFeature === 'recipe'"></app-recipes>
+      <app-shopping-list *ngIf="loadedFeature !== 'recipe'"></app-shopping-list>
+    </div>
+  </div>
 </div>
-
-
-
