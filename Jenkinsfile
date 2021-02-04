@@ -2,6 +2,7 @@
 
 @Library('jenkins_library')_
 
-mainLoader {
- echo 'hello build' 
-}
+ stage('Demo') {
+     echo 'Hello world'
+     sayHello 'Dave'
+ }
