@@ -2,7 +2,6 @@
 
 @Library('jenkins_library')_
 
-stage('Demo') {
-     echo 'Hello world'
-     sayHello 'Dave'
- }
+mainLoader {
+ echo 'hello build' 
+}
