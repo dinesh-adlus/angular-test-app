@@ -1,6 +1,6 @@
 #! /usr/bin/env groovy
 
-@Library('JENKINS_LIBRARY')_
+@Library('jenkins_library')_
 
 stage('Demo') {
      echo 'Hello world'
