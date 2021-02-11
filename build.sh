@@ -1,1 +1,2 @@
-echo 'Testing a shell script load'
+echo "installing node modules";
+npm install
