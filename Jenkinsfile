@@ -2,5 +2,5 @@
 
 @Library('jenkins_library')_
      
-sayHello 'Dave'
+sayHello ''
 
