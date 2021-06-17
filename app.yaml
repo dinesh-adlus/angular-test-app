@@ -1,0 +1,1 @@
+runtime: python27api_version: 1threadsafe: truehandlers:- url: / static_files: <YOUR_APP_NAME>/index.html upload: <YOUR_APP_NAME>/index.html- url: /static_dir: <YOUR_APP_NAME>
