@@ -6,7 +6,7 @@ rm -rf ./bundle
 rm -rf ./temp
 
 
-npm install
+npm install --legacy-peer-deps
 
 echo "node modules are installed successfully"
 
