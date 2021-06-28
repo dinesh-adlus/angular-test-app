@@ -11,3 +11,5 @@ npm install --legacy-peer-deps
 echo "node modules are installed successfully"
 
 npm run build
+
+cp app.yaml dist/my-first-app/
