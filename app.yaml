@@ -2,8 +2,8 @@ runtime: python27
 api_version: 1
 threadsafe: true
 handlers:
--url: / 
-static_files: angular-test-app/index.html 
-upload: angular-test-app/index.html
--url: /
-static_dir: angular-test-app
+- url: /(.*\.(.+))$
+  static_files: angular-test-app/index.html 
+  upload: angular-test-app/index.html
+- url: /(.*\.(.+))$
+  static_dir: angular-test-app
