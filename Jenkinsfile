@@ -2,5 +2,7 @@
 
 @Library('jenkins_library')_
      
-sayHello 'dave'
+sayHello {
+   path: "Angular/config.json"
+}
 
