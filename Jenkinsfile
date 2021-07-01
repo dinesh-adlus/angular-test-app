@@ -3,6 +3,7 @@
 @Library('jenkins_library')_
      
 sayHello {
-   path: "Angular/config.json"
+   path: "Angular/config.json",
+   deploy: "dev"   
 }
 
