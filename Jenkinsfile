@@ -2,7 +2,7 @@
 
 @Library('jenkins_library')_
      
-sayHello {
+startBuild {
    path = "Angular/config.json"
    deploy = "dev"   
 }
