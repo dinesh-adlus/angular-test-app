@@ -10,6 +10,6 @@ npm install --legacy-peer-deps
 
 echo "node modules are installed successfully"
 
-npm run build
+npm run build:ssr
 
 cp app.yaml dist/
